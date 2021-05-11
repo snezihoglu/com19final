@@ -28,8 +28,13 @@ It is a web application that contains:
  ![Rwgister page](https://user-images.githubusercontent.com/64955154/117888977-a3738580-b2d4-11eb-9245-421bdba7839b.PNG)
  <br>
  User's profile page shows up after logging in.
- ![3](https://user-images.githubusercontent.com/64955154/117889059-bd14cd00-b2d4-11eb-8f11-d695acb0f61e.PNG)
-
+ ![3](https://user-images.githubusercontent.com/64955154/117889059-bd14cd00-b2d4-11eb-8f11-d695acb0f61e.PNG
+ <br>
+ There are two more pages:
+ One is a home page:
+ ![4](https://user-images.githubusercontent.com/64955154/117889659-bf2b5b80-b2d5-11eb-81ac-537607a65e45.PNG)
+ One gives information about API:
+![5](https://user-images.githubusercontent.com/64955154/117889711-d5391c00-b2d5-11eb-9df3-f4b08eab4d51.PNG)
 ## DB page Description
 
 It is a web application that includes a Student database inside. The purpose of the project is to help students and teachers by providing contact information for their classmates and students. The project is done by html and java languages. For the database, postgreSQL is used. The application contains REST API, the further information about it is given below.
