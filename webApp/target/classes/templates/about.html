@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/style2.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="" crossorigin="anonymous">
+  <title>Short Description about API</title>
+</head>
+<body>
+<div th:fragmet="nav">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">com19</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMankup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="/home">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/aboutapi">About API</a>
+        <a class="nav-link" href="/login">Sign in</a>
+        <a class="nav-link" href="/logout">Sign out</a>
+
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div class="jumbotron">
+
+
+  <div class="container" ng-app="tabApp">
+    <div class="row" ng-controller="TabController">
+      <div class="col-md-8">
+        <div class="jumbotron">
+          <div ng-show="isSet(1)">
+            <h1>Welcome to my com19 db website!</h1>
+            <p>This is a website for only teachers. Each of them has their own usernames and passwords for logging in. When the user logs in they come up with his or her profile page. User can go to the page that includes a database that stores contact information of com19 students by clicking onto a button.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+<div class="footer">This website is built by <a href="https://github.com/snezihoglu"><strong>Selma Nezihoglu</strong></a>.</div>
+</body>
+</html>

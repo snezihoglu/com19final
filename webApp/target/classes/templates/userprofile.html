@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/nav.css">
+  <link rel="stylesheet" href="/card.css">
+  <title>UserInterface</title>
+</head>
+<header th:insert="fragments/header2 :: header2"></header>
+<body>
+
+<div class="card-container">
+  <div class="upper-container">
+    <div class="image-container">
+      <img src="https://user-images.githubusercontent.com/65071516/117642498-28fa1700-b1a9-11eb-8102-21e1ec8f621b.jpg"/>
+    </div>
+  </div>
+  <div class="lower-container">
+    <div>
+
+      <h3>Ruslan Isaev</h3>
+      <br>
+      <br>
+      <h4>Backend Programming Teacher In Ala-TooUniversity</h4>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="container">
+    <div class="profile-header">
+      <div class="profile-img">
+        <img src="https://i1.rgstatic.net/ii/profile.image/443267213991937-1482694547928_Q512/Ruslan-Isaev-4.jpg" width="200">
+      </div>
+      <div class="profile-nav-info">
+        <h3 class="user-name">Ruslan Isaev</h3>
+        <div class="address">
+          <span id="country" class="country">Professor of IAAU</span>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="main-bd">
+      <div class="left-side">
+        <div class="profile-side">
+          <p class="mobile-no"><i class="fa fa-phone"></i> 0 702 924 370</p>
+          <p class="user-mail"><i class="fa fa-envelope"></i>subfear@mail.ru</p>
+          <div class="user-bio">
+            <h3>Bio</h3>
+            <p class="bio">
+              Engineer/researcher/consultant
+            </p>
+          </div>
+          <div class="profile-btn">
+            <button class="chatbtn" id="chatBtn"><i class="fa fa-comment"></i><a href="https://com19db.herokuapp.com/" style="color: white"> Go to com19's class db</a></button>
+          </div>
+        </div>
+
+      </div>
+      <div class="right-side">
+        <div class="profile-body" style="margin: 20px;">
+          <h1>Welcome Mister Ruslan!</h1>
+          <p>Please click one the button that is placed on the left side. That will direct you to com19's database. There you can see all the students' contact information, you can add new students or remove some of the students.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer th:insert="fragments/footer :: footer"></footer>
+</body>
+
+</html>
