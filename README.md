@@ -24,8 +24,11 @@ It is a web application that contains:
  <br>
  
  First the user should register, create a username and a password. After that the user can use created username and password to login to the website. 
+ ![Login page](https://user-images.githubusercontent.com/64955154/117888897-863eb700-b2d4-11eb-8b7b-76b2202cac7b.PNG)
+ ![Rwgister page](https://user-images.githubusercontent.com/64955154/117888977-a3738580-b2d4-11eb-9245-421bdba7839b.PNG)
  <br>
  User's profile page shows up after logging in.
+ ![3](https://user-images.githubusercontent.com/64955154/117889059-bd14cd00-b2d4-11eb-8f11-d695acb0f61e.PNG)
 
 ## DB page Description
 
