@@ -21,6 +21,11 @@ It is a web application that contains:
 - a home page
 - a description page of API
 - a database page where the user can add or delete data
+ <br>
+ 
+ First the user should register, create a username and a password. After that the user can use created username and password to login to the website. 
+ <br>
+ User's profile page shows up after logging in.
 
 ## DB page Description
 
