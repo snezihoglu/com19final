@@ -50,41 +50,8 @@ Main page:
 Information window for API
 ![AboutPage](https://user-images.githubusercontent.com/64955154/111917003-e02ab980-8aa7-11eb-870f-2b7725b63fb5.PNG)
 
-### REST API
+### Swagger
 
-Here is the code for API:
-
-```
-@PostMapping("/add")
-    public @ResponseBody String addNewStudent(@RequestBody Students student) {
-        StudentsRepository.save(student);
-        return "OK";
-    }
-
-    @GetMapping("/all")
-    public @ResponseBody Iterable<Students> getAllStudents() {
-        return StudentsRepository.findAll();
-    }
-
-    @GetMapping("/{id}")
-    public @ResponseBody Students one(@PathVariable Integer id) {
-        return StudentsRepository.findById(id).orElseThrow(() -> new StudentNotFoundException(id));
-    }
-
-    @PutMapping("/{id}")
-    public @ResponseBody Students put(@RequestBody Students replaceStudents, @PathVariable Integer id) {
-        return StudentsRepository.findById(id).map(Students -> {
-            Students = replaceStudents;
-            Students.setId(id);
-            return StudentsRepository.save(Students);
-        }).orElseThrow(() -> new StudentNotFoundException(id));
-    }
-
-    @DeleteMapping("/{id}")
-    void del(@PathVariable Integer id) {
-        StudentsRepository.deleteById(id);
-    }
-```
 Here we have 4 routes for each operation:
 
       * GET - it is used to see all of the information in a table, or a specific row by typing in the id. This method can be used by typing "/datalar/id" to see a specific row         or "/datalar/all" to see all the data.
