@@ -28,7 +28,7 @@ It is a web application that contains:
  ![Rwgister page](https://user-images.githubusercontent.com/64955154/117888977-a3738580-b2d4-11eb-9245-421bdba7839b.PNG)
  <br>
  User's profile page shows up after logging in.
- ![3](https://user-images.githubusercontent.com/64955154/117889059-bd14cd00-b2d4-11eb-8f11-d695acb0f61e.PNG
+ ![3](https://user-images.githubusercontent.com/64955154/117889059-bd14cd00-b2d4-11eb-8f11-d695acb0f61e.PNG)
  <br>
  There are two more pages:
  One is a home page:
