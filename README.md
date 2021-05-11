@@ -85,10 +85,17 @@ Here is the code for API:
         StudentsRepository.deleteById(id);
     }
 ```
-
 Here we have 4 routes for each operation:
+
+      * GET - it is used to see all of the information in a table, or a specific row by typing in the id. This method can be used by typing "/datalar/id" to see a specific row         or "/datalar/all" to see all the data.
+      * POST - it is used to insert information to database. This method can be used by typing"/datalar/add".
+      * PUT - it is used to replace a data. This method is used by typing"/datalar/id".
+      * DELETE - it is used to delete a specific row by typing in the id. This method is activated by typing"/datalar/id".
+
+
+Here we have 4 routes for students database:
 
       * GET - it is used to see all of the information in a table, or a specific row by typing in the id. This method can be used by typing "/students/id" to see a specific row or "/students/all" to see all the data.
       * POST - it is used to insert information to database. This method can be used by typing"/students/add".
-      * PUT - it is used to replace a data. This method is used by typing"/studentsr/id".
+      * PUT - it is used to replace a data. This method is used by typing"/students/id".
       * DELETE - it is used to delete a specific row by typing in the id. This method is activated by typing"/students/id".
